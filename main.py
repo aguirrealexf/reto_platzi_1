@@ -16,6 +16,7 @@ def run():
     #print(products)
     labels, values = utils.get_product(result)
     charts.generate_bar_chart(labels, values)
+    #charts.generate_pie_chart(labels, values)
   else:
     print('No entro al IF')
 
